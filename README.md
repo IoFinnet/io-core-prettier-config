@@ -21,7 +21,8 @@ A common Prettier config used in AQS's projects.
    trim_trailing_whitespace = false
    ```
 
-2. Install Prettier and this package.
+2. Install Prettier and this package (see
+   [Downloading private `@aq-systems` packages](#downloading-private-aq-systems-packages)).
 
    ```bash
    yarn add --dev prettier @aq-systems/prettier-config
@@ -33,3 +34,20 @@ A common Prettier config used in AQS's projects.
    // prettier.config.js
    module.exports = require('@swingby-protocol/prettier-config');
    ```
+
+### Downloading private `@aq-systems` packages
+
+1. Make sure your repo contains an `.npmrc` file at its root with the following content.
+
+   ```.npmrc
+   @aq-systems:registry=https://npm.pkg.github.com
+   ```
+
+2. Run the following command once.
+
+   ```bash
+   npm login --scope=@aq-systems --registry=https://npm.pkg.github.com
+   ```
+
+   When prompted for a password, paste a [Personal access token](https://github.com/settings/tokens)
+   for your GitHub account that has the scope `read:packages`.
