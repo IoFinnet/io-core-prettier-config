@@ -1,6 +1,6 @@
 {
   "name": "@iofinnet/io-core-fedev-prettier-config",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "main": "prettier.config.js",
   "repository": "git@github.com:iofinnet/io-core-fedev-prettier-config.git",
   "license": "UNLICENSED",
