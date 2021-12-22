@@ -1,4 +1,4 @@
-A common Prettier config used in AQS's projects.
+A common Prettier config used in Iofinnets's projects.
 
 ## Quick start
 
@@ -22,31 +22,31 @@ A common Prettier config used in AQS's projects.
    ```
 
 2. Install Prettier and this package (see
-   [Downloading private `@aq-systems` packages](#downloading-private-aq-systems-packages)).
+   [Downloading private `@iofinnet` packages](#downloading-private-iofinnet-packages)).
 
    ```bash
-   yarn add --dev prettier @aq-systems/prettier-config
+   yarn add --dev prettier @iofinnet/io-core-fedev-prettier-config
    ```
 
 3. Add the follow config file (`/prettier.config.js`) at the root of your project.
 
    ```js
    // prettier.config.js
-   module.exports = require('@swingby-protocol/prettier-config');
+   module.exports = require('@iofinnet/io-core-fedev-prettier-config');
    ```
 
-### Downloading private `@aq-systems` packages
+### Downloading private `@iofinnet` packages
 
 1. Make sure your repo contains an `.npmrc` file at its root with the following content.
 
    ```.npmrc
-   @aq-systems:registry=https://npm.pkg.github.com
+   @iofinnet:registry=https://npm.pkg.github.com
    ```
 
 2. Run the following command once.
 
    ```bash
-   npm login --scope=@aq-systems --registry=https://npm.pkg.github.com
+   npm login --scope=@iofinnet --registry=https://npm.pkg.github.com
    ```
 
    When prompted for a password, paste a [Personal access token](https://github.com/settings/tokens)

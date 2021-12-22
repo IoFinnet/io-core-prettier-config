@@ -1,8 +1,8 @@
 {
-  "name": "@aq-systems/prettier-config",
+  "name": "@iofinnet/io-core-fedev-prettier-config",
   "version": "0.0.0-development",
   "main": "prettier.config.js",
-  "repository": "git@github.com:aq-systems/prettier-config.git",
+  "repository": "git@github.com:iofinnet/io-core-fedev-prettier-config.git",
   "license": "UNLICENSED",
   "files": [
     "prettier.config.js"
