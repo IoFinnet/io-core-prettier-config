@@ -1,4 +1,4 @@
-A common Prettier config used in Iofinnets's projects.
+A common Prettier config used in io.finnet's projects.
 
 ## Quick start
 
@@ -25,14 +25,14 @@ A common Prettier config used in Iofinnets's projects.
    [Downloading private `@iofinnet` packages](#downloading-private-iofinnet-packages)).
 
    ```bash
-   yarn add --dev prettier @iofinnet/io-core-fedev-prettier-config
+   yarn add --dev prettier @iofinnet/prettier-config
    ```
 
-3. Add the follow config file (`/prettier.config.js`) at the root of your project.
+3. Add the follow config file (`/.prettierrc.js`) at the root of your project.
 
    ```js
-   // prettier.config.js
-   module.exports = require('@iofinnet/io-core-fedev-prettier-config');
+   // .prettierrc.js
+   module.exports = require('@iofinnet/prettier-config');
    ```
 
 ### Downloading private `@iofinnet` packages
@@ -49,5 +49,5 @@ A common Prettier config used in Iofinnets's projects.
    npm login --scope=@iofinnet --registry=https://npm.pkg.github.com
    ```
 
-   When prompted for a password, paste a [Personal access token](https://github.com/settings/tokens)
-   for your GitHub account that has the scope `read:packages`.
+   When prompted for a password, paste a [Personal access token](https://github.com/settings/tokens) for your GitHub
+   account that has the scope `read:packages`.
